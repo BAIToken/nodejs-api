@@ -1,0 +1,17 @@
+{
+  "name": "baiapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@waves/waves-transactions": "^4.2.10",
+    "dotenv": "^16.3.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  }
+}
