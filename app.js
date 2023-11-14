@@ -4,7 +4,7 @@ const BAIAPI = require('./BAIAPI');
     const apiInstance = new BAIAPI();
 
     try {
-        const solution = await apiInstance.solveTask('Create a picture of Kurt Gödel', 'dalle');
+        const solution = await apiInstance.solveTask('Who was Kurt Gödel?', 'chatgpt');
 
         console.log('Solution: ', solution);
     } catch (error) {

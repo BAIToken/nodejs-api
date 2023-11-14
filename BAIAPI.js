@@ -1,4 +1,5 @@
-const WavesConnection = require('./wavesConnection');
+const WavesConnection = require('./connectors/wavesConnection');
+const EVMConnection = require('./connectors/evmConnection');
 
 require('dotenv').config();
 
@@ -9,6 +10,8 @@ class BAIAPI {
 
         if (type == 'Waves') {
             this.blockchainConnection = new WavesConnection();
+        } else if (type == 'evm') {
+            this.blockchainConnection = new EVMConnection();
         }
     }
 

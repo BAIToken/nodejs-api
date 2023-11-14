@@ -22,7 +22,17 @@ nodeURL='https://nodes-testnet.wavesnodes.com'
 network='testnet'
 ```
 
-Replace <Your_Seed> with your actual seed phrase to interact with the blockchain.
+for using the Waves network. In case of an EVM based network, the corresponding .env file should look like the following example:
+
+```env
+type='evm'
+contractAddress = '<the address of the main BAI contract>'
+privateKey = '<your private key>'
+endpoint = '<your endpoint, e.g., from alchemy, ...>'
+tokenAddress = '<the contract address of the ERC20 BAI token on the network>'
+```
+
+Replace the corresponding parameters with your actual settings to interact with the blockchain.
 
 ## Usage
 Here's a quick example to use the API to solve a task:
