@@ -87,7 +87,24 @@ Handles direct interactions with the Waves blockchain, such as sending tasks, re
 - BAI Token: [0x6a27CD26a373530835B9fE7aC472B3e080070F64](https://basescan.org/token/0x6a27CD26a373530835B9fE7aC472B3e080070F64)
 - BAI Tasks: [0xC9C19f5ac2433b4B96d8AaAca6890598801f626F](https://basescan.org/address/0xC9C19f5ac2433b4B96d8AaAca6890598801f626F)
 
-*[Documentation](https://docs.blockai.dev/bai/contracts)*
+## `Available Task Types`
+
+### Simple Text Request:
+chatgpt, orca, gemini, llama3
+
+### Image Generation:
+dalle, stable-diffusion
+
+### Video Summarize:
+youtube
+
+### Discussion:
+discussion
+
+### Brainstorming:
+brainstorm
+
+*[Fee and extra details:](https://docs.blockai.dev/bai/contracts)*
 
 ## Contributing
 If you'd like to contribute to the project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
