@@ -26,7 +26,7 @@ for using the Waves network. In case of an EVM based network, the corresponding 
 
 ```env
 type='evm'
-contractAddress = '<the address of the main BAI contract>'
+contractAddress = '<the address of the task BAI contract>'
 privateKey = '<your private key>'
 endpoint = '<your endpoint, e.g., from alchemy, ...>'
 tokenAddress = '<the contract address of the ERC20 BAI token on the network>'
@@ -72,6 +72,22 @@ This is the main API module that abstracts the `WavesConnection` to interact wit
 ### `wavesConnection.js`
 
 Handles direct interactions with the Waves blockchain, such as sending tasks, retrieving task prices, and waiting for task solutions.
+
+## `Contract Addresses`
+
+### Waves mainnet: 
+- BAI Token: [2fdzyHvXGCqaz1XA8m9fodemmP9giVBcpe4Jq9F63oFL](https://wavesexplorer.com/assets/2fdzyHvXGCqaz1XA8m9fodemmP9giVBcpe4Jq9F63oFL)
+- BAI Tasks: [3PMu8gHthb5uQgpqDvUQ3GZGdovPvypoMQ5](https://wavesexplorer.com/addresses/3PMu8gHthb5uQgpqDvUQ3GZGdovPvypoMQ5)
+
+### BNB mainnet: 
+- BAI Token: [0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8](https://bscscan.com/token/0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8)
+- BAI Tasks: [0xbEfd1Ac0eF34136f3F4E2baCc878bea99b45951F](https://bscscan.com/address/0xbEfd1Ac0eF34136f3F4E2baCc878bea99b45951F)
+
+### Base Mainnet: 
+- BAI Token: [0x6a27CD26a373530835B9fE7aC472B3e080070F64](https://basescan.org/token/0x6a27CD26a373530835B9fE7aC472B3e080070F64)
+- BAI Tasks: [0xC9C19f5ac2433b4B96d8AaAca6890598801f626F](https://basescan.org/address/0xC9C19f5ac2433b4B96d8AaAca6890598801f626F)
+
+*[Documentation](https://docs.blockai.dev/bai/contracts)*
 
 ## Contributing
 If you'd like to contribute to the project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
