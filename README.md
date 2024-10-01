@@ -26,7 +26,7 @@ for using the Waves network. In case of an EVM based network, the corresponding 
 
 ```env
 type='evm'
-contractAddress = '<the address of the main BAI contract>'
+contractAddress = '<the address of the task BAI contract>'
 privateKey = '<your private key>'
 endpoint = '<your endpoint, e.g., from alchemy, ...>'
 tokenAddress = '<the contract address of the ERC20 BAI token on the network>'
@@ -72,6 +72,22 @@ This is the main API module that abstracts the `WavesConnection` to interact wit
 ### `wavesConnection.js`
 
 Handles direct interactions with the Waves blockchain, such as sending tasks, retrieving task prices, and waiting for task solutions.
+
+## `Contract Addresses`
+
+### Waves mainnet: 
+BAI Token: 2fdzyHvXGCqaz1XA8m9fodemmP9giVBcpe4Jq9F63oFL 
+Tasks: 3PMu8gHthb5uQgpqDvUQ3GZGdovPvypoMQ5
+
+### BNB mainnet: 
+BAI Token: 0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8
+Tasks: 0xbEfd1Ac0eF34136f3F4E2baCc878bea99b45951F
+
+### Base testnet: 
+BAI Token: 0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8 
+Tasks: 0x445fB8938858CF4486A9E5AB2Ab31969DB0208B7
+
+*[Documentation](https://docs.blockai.dev/bai)*
 
 ## Contributing
 If you'd like to contribute to the project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
