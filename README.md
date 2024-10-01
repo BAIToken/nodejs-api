@@ -76,16 +76,16 @@ Handles direct interactions with the Waves blockchain, such as sending tasks, re
 ## `Contract Addresses`
 
 ### Waves mainnet: 
-- BAI Token: 2fdzyHvXGCqaz1XA8m9fodemmP9giVBcpe4Jq9F63oFL 
-- Tasks: 3PMu8gHthb5uQgpqDvUQ3GZGdovPvypoMQ5
+- BAI Token: [2fdzyHvXGCqaz1XA8m9fodemmP9giVBcpe4Jq9F63oFL](https://wavesexplorer.com/assets/2fdzyHvXGCqaz1XA8m9fodemmP9giVBcpe4Jq9F63oFL)
+- BAI Tasks: [3PMu8gHthb5uQgpqDvUQ3GZGdovPvypoMQ5](https://wavesexplorer.com/addresses/3PMu8gHthb5uQgpqDvUQ3GZGdovPvypoMQ5)
 
 ### BNB mainnet: 
-- BAI Token: 0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8
-- Tasks: 0xbEfd1Ac0eF34136f3F4E2baCc878bea99b45951F
+- BAI Token: [0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8](https://bscscan.com/token/0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8)
+- BAI Tasks: [0xbEfd1Ac0eF34136f3F4E2baCc878bea99b45951F](https://bscscan.com/address/0xbEfd1Ac0eF34136f3F4E2baCc878bea99b45951F)
 
-### Base testnet: 
-- BAI Token: 0x10Da043D0B46e43B53B74a88AC60CCC28e2AFDf8 
-- Tasks: 0x445fB8938858CF4486A9E5AB2Ab31969DB0208B7
+### Base Mainnet: 
+- BAI Token: [0x6a27CD26a373530835B9fE7aC472B3e080070F64](https://basescan.org/token/0x6a27CD26a373530835B9fE7aC472B3e080070F64)
+- BAI Tasks: [0xC9C19f5ac2433b4B96d8AaAca6890598801f626F](https://basescan.org/address/0xC9C19f5ac2433b4B96d8AaAca6890598801f626F)
 
 *[Documentation](https://docs.blockai.dev/bai/contracts)*
 
